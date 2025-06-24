@@ -7,7 +7,12 @@ class Publication {
     }
 
     public final String getInfo() {
-        // write your code here
+        String details = getDetails();
+        if (!details.isEmpty()) {
+            return getType() + " (" + details + "): " + title;
+        } else {
+            return getType() + ": " + title;
+        }
     }
 
     public String getType() {
@@ -29,7 +34,15 @@ class Newspaper extends Publication {
         this.source = source;
     }
 
-    // write your code here
+    @Override
+    public String getType() {
+        return "Newspaper";
+    }
+
+    @Override
+    public String getDetails() {
+        return "source - " + source;
+    }
 
 }
 
@@ -42,7 +55,15 @@ class Article extends Publication {
         this.author = author;
     }
 
-    // write your code here
+    @Override
+    public String getType() {
+        return "Article";
+    }
+
+    @Override
+    public String getDetails() {
+        return "author - " + author;
+    }
 
 }
 
@@ -55,6 +76,14 @@ class Announcement extends Publication {
         this.daysToExpire = daysToExpire;
     }
 
-    // write your code here
+    @Override
+    public String getType() {
+        return "Announcement";
+    }
+
+    @Override
+    public String getDetails() {
+        return "days to expire - " + daysToExpire;
+    }
 
 }
