@@ -1,3 +1,5 @@
 custom_name: Topics
 content:
   - Polymorphism
+  - Anonymous class
+  - Default methods

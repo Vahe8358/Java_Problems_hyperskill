@@ -7,10 +7,22 @@
         <option name="delegatedBuild" value="false" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="jbr-21" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics (1)/Anonymous class/An anonymous class with three methods" />
+            <option value="$PROJECT_DIR$/Topics (1)/Anonymous class/Exploring Java's Anonymous Classes" />
+            <option value="$PROJECT_DIR$/Topics (1)/Anonymous class/Find a correct syntax" />
+            <option value="$PROJECT_DIR$/Topics (1)/Anonymous class/Theory" />
+            <option value="$PROJECT_DIR$/Topics (1)/Anonymous class/Tricky Java  Final in Anonymous Classes" />
+            <option value="$PROJECT_DIR$/Topics (1)/Anonymous class/What about context" />
+            <option value="$PROJECT_DIR$/Topics (1)/Default methods/Add new default method" />
+            <option value="$PROJECT_DIR$/Topics (1)/Default methods/Diamond problem" />
+            <option value="$PROJECT_DIR$/Topics (1)/Default methods/Implementing a greeting interface" />
+            <option value="$PROJECT_DIR$/Topics (1)/Default methods/Resolve a diamond problem" />
+            <option value="$PROJECT_DIR$/Topics (1)/Default methods/Theory" />
+            <option value="$PROJECT_DIR$/Topics (1)/Default methods/What is the result" />
             <option value="$PROJECT_DIR$/Topics (1)/Polymorphism/Publication and its subclasses" />
             <option value="$PROJECT_DIR$/Topics (1)/Polymorphism/Superclass method call" />
             <option value="$PROJECT_DIR$/Topics (1)/Polymorphism/The time of overloading" />
