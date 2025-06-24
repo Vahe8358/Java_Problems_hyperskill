@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: a number literal
+  - text: a string literal
+  - text: a character literal
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3229#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 18 Jun 2025 11:13:28 UTC"
+record: -1
+selected_options:
+  - 1
+local_check: false

@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: a
+  - text: b
+  - text: c
+  - text: d
+  - text: e
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3764#comment
+status: Solved
+feedback:
+  message: |-
+    <html>Your mastery of these two of three Java printing methods is evident!
+    Continue learning to eventually master the third one.</html>
+  time: "Wed, 18 Jun 2025 11:32:37 UTC"
+record: -1
+selected_options:
+  - 3
+local_check: false

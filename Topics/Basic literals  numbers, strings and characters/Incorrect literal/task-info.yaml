@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: <b>"123456"</b>
+  - text: <b>"e-mail@gmail.com"</b>
+  - text: <b>'@'</b>
+  - text: <b>'abc'</b>
+  - text: <b>1806</b>
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3232#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 18 Jun 2025 11:12:39 UTC"
+record: -1
+selected_options:
+  - 3
+local_check: false
